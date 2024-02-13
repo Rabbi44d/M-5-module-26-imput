@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+    </style>
+</head>
+<body class="m-6">
+    <header>
+
+    </header>
+
+    <main>
+        <!-- ai diver vitor sob htakbe -->
+          <div class="flex">
+             <!-- kad sob kad thakbe -->
+                <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- first  kad 1 -->
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure><img src="images/triangle.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">Triangle</h2>
+                          <p class="text-center text-2xl">Area(A)=0.5 X b X h</p>
+                          
+                          <!-- nocer kad -->
+
+                        <div>
+                          <input id="triangleCad" class="w-24 text-center" type="text" placeholder="b">
+                          <span class="mr-4 ml-2">CM</span>
+                          <input id="heinght" class="w-24 text-center" type="text" placeholder="h">
+                          <span class="mr-4 ml-2">CM</span> 
+                        </div>
+
+                        <div>
+                          <p class="text-2xl">Area:<span id="Cinput"></span><span>CM<sup>2</sup></span></p>
+                        </div>
+
+                        
+                          <div class="card-actions justify-end">
+                            <button onclick="calculotarA()" class="btn btn-primary w-full">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- ------------------------------------- -->
+                           <!-- seced kad 2 -->
+
+                           <div class="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                              <h2 class="card-title">Rhomdus</h2>
+                              <p class="text-center text-2xl">Area (A)= W X L</p>
+                               <div>   
+                              <input id="rhombusinput" class="w-24 text-center" type="text" placeholder="Length"><span class="mr-3 ml-4">CM</span>
+                              <input id="Rhomdusinput" class="w-24 text-center" type="text" placeholder="Width"><span class="mr-3 ml-4">CM</span>
+                              </div>
+                            
+                              <div class="card-actions justify-end">
+                                <button onclick="rhombusInput()" class="btn btn-primary w-full">Calculate</button>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- thad kad 3 -->
+
+                          <div class="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="images/rectangle.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                              <h2 class="card-title">Rectangle</h2>
+                              <p class="text-center text-3xl">Area(A)=W X L</p>
+
+                                  <div>
+                                    <input id="opu" class="w-24 text-center" type="text" placeholder="width">
+                                    <span class="mr-3 ml-4">CM</span>
+                                    <input id="topu" class="w-24 text-center" type="text" placeholder="heinght">
+                                    <span class="mr-3 ml-4">CM</span>
+                                    
+                                  </div>
+
+                                  <div>
+                                    <p class="text-2xl">Area:<span id="minu"></span><span>CM<sup>2</sup></span></p>
+                                  </div>
+
+                              <div class="card-actions justify-end">
+                                <button onclick="RaYhan()" class="btn btn-primary w-full">Calculate</button>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- furtd kad 4 -->
+
+                          <div class="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="images/pentagon.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                              <h2 class="card-title">Pentagon</h2>
+                              <p></p>
+                              <div class="card-actions justify-end">
+                                <button class="btn btn-primary">Buy Now</button>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+                     <!-- outfood thakhbe -->
+                     <div class=" w-96 border-2 border-red-800 rounded-md">
+                        <h1 class="text-3xl text-center p-4">Area Calculation</h1>
+                     </div>
+          </div>
+    </main>
+    <script src="js/26 imput.js"></script>
+</body>
+</html>
